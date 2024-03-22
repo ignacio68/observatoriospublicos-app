@@ -2,6 +2,7 @@
 hooks/
 node_modules/
 platforms/
+dist/
 
 # Logs
 logs
@@ -19,6 +20,12 @@ yarn-error.log*
 .project
 tmp/
 typings/
+.git
+maestro_cloud.sh
+*.zip
+*.sh
+.env
+.env.default
 
 # Visual Studio Code
 .vscode/*

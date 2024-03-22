@@ -1,4 +1,8 @@
 import { createApp } from 'nativescript-vue';
-import Home from './components/Home.vue';
+import { router } from './routes';
 
-createApp(Home).start();
+import App from './components/App.vue';
+
+const app = createApp(App);
+app.use(router);
+app.start();

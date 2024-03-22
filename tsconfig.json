@@ -13,16 +13,17 @@
       "~/*": ["src/*"],
       "@/*": ["src/*"]
     },
+    "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
   },
   "vueCompilerOptions": {
     "target": 3,
     "lib": "nativescript-vue"
   },
-  "include": ["src", "types"],
+  "include": ["src", "types", "__test__"],
   "exclude": ["node_modules", "platforms"]
 }
